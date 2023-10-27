@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Orbitron&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="img/Logo.svg">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c6d6aa1dd7.js" crossorigin="anonymous"></script>
+  <title>TechHeavenShop</title>
+</head>
+
+<body>
+  <nav class="menu">
+    <div class="menu-items">
+      <a class="navbar-brand" href="#"><img src="img/Logo.svg" alt="TechHeavenShop" width="80" height="80"></a>
+
+      <form class="busca">
+        <input class="campo" type="search" placeholder="Search" aria-label="Search">
+        <span class="material-symbols-outlined lupa">
+          search
+        </span></a>
+      </form>
+      <div class="icones">
+        <ul class="lista-icones">
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="material-symbols-outlined">
+                settings
+              </span>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#">
+              <span class="material-symbols-outlined">
+                info
+              </span></a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#"> <span class="material-symbols-outlined">
+                shopping_bag
+              </span></a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#"> <span class=" material-symbols-outlined">
+                support_agent
+              </span></a>
+          </li>
+
+          <li class="menu-item">
+            <a class="menu-link" href="#"> <span class=" material-symbols-outlined">
+                login
+              </span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carousselProdutos" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <img class="etiqueta" src="img/fi_burst_sale.svg" alt="promoção">
+      <div class="carousel-item active">
+        <img src="img/produto.jpg" class="d-block w-100" alt="produto">
+      </div>
+      <div class="carousel-item">
+        <img src="img/produto2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/produto3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousselProdutos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousselProdutos" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h3 class="titulo-cards">Best Sellers</h3>
+  <div class="cards-produtos">
+    <div class="produto">
+      <img src="img/imac.png" alt="" class="imagem-produto">
+      <h3 class="nome-produto">IMac 2023</h3>
+      <p class="preco-produto">R$ 30.000</p>
+      <a class="botao-produto">
+        <span class=" material-symbols-outlined">
+          add_shopping_cart
+        </span>purchase
+      </a>
+    </div>
+
+    <div class="produto">
+      <img src="img/bobina.jpg" alt="" class="imagem-produto">
+      <h3 class="nome-produto">Bobina de Tesla</h3>
+      <p class="preco-produto">R$ 1.000.000</p>
+      <a class="botao-produto">
+        <span class=" material-symbols-outlined">
+          add_shopping_cart
+        </span>purchase
+      </a>
+    </div>
+    <div class="produto">
+      <img src="img/zflip.jpg" alt="" class="imagem-produto">
+      <h3 class="nome-produto">Sansung z-flip</h3>
+      <p class="preco-produto">R$ 10.000</p>
+      <a class="botao-produto">
+        <span class=" material-symbols-outlined">
+          add_shopping_cart
+        </span>purchase
+      </a>
+    </div>
+    <div class="produto">
+      <img src="img/iphone.png" alt="" class="imagem-produto">
+      <h3 class="nome-produto">Iphone 14</h3>
+      <p class="preco-produto">R$ 12.000</p>
+      <a class="botao-produto">
+        <span class=" material-symbols-outlined">
+          add_shopping_cart
+        </span>purchase
+      </a>
+    </div>
+
+
+    <div class="promo">
+      <img src="img/specila-part.jpg" alt="" class="imagem-promo">
+      <div class="promo-info">
+        <p class="promo-desc">Pay one get two</p>
+        <h3 class="nome-promo">APPLE PRODUCTS</h3>
+        <a href="" class="promo-btn">Look for More</a>
+      </div>
+    </div>
+    <div class="promo">
+      <img src="img/tv.png" alt="" class="imagem-promo">
+      <div class="promo-info">
+        <p class="promo-desc">Pay one get two</p>
+        <h3 class="nome-promo">SANSUNG PRODUCTS</h3>
+        <a href="" class="promo-btn">Look for More</a>
+      </div>
+    </div>
+    <div class="promo-grande">
+      <img src="img/imagem-promocional.jpg" alt="" class="imagem-special-promo">
+      <div class="promo-info">
+        <p class="promo-desc">Cumpom 5%</p>
+        <h3 class="nome-promo">Notebooks Intel</h3>
+        <a href="" class="promo-btn">Look for More</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer__main">
+      <a href="index.html" class="footer__logo"><img src="img/Logo.svg"></a>
+      <p class="footer__text">Agradecimentos:
+        Gostaria de agradecer ao professor Marcos, da escola SuperGeeks, por ter me ajudado a realizar está conquista. E também ao chato do meu irmao, que me emprestou um <a href="https://th.bing.com/th/id/R.ceb6ecddb34e9cfafa4072e4437f3e83?rik=T%2fqglBDlCxeo%2bg&riu=http%3a%2f%2fmygaming.co.za%2fnews%2fwp-content%2fuploads%2f2013%2f04%2fBroken-laptop.jpg&ehk=gDI0yUFHvpn9NuRxZO7cFlOes4mpYiRvGkp9fOFdfNU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">computador detonado.</a></p>
+      <div class="footer__icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </div>
+
+    <ul>
+      <li>
+        <h4>Contato</h4>
+      </li>
+      <li><i class="fa-solid fa-phone"></i>+11 1111-1111</li>
+      <li><i class="fa-solid fa-envelope"></i>exemploemail@email.com</li>
+    </ul>
+    <ul>
+      <li>
+        <h4><i class="fa-solid fa-location-dot"></i>Endereço</h4>
+      </li>
+      <li>Bairro do Limoeiro</li>
+      <li>Rua Itália</li>
+      <li>São Paulo, SP</li>
+    </ul>
+    <p class="copyright">Desenvolvido por Yasmin Omar Aref</p>
+  </footer>
+
+</body>
+
+</html>
